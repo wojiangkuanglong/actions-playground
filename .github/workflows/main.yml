@@ -27,4 +27,4 @@ jobs:
           target: '${{ secrets.REMOTE_PATH }}'
           port: 22
           username: '${{ secrets.USER_NAME }}'
-          key: '${{ secrets.SSH_KEY }}'
+          password: '${{ secrets.PASSWORD }}'
